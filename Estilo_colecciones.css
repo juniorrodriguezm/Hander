@@ -1,0 +1,1456 @@
+.navegacion{
+
+	height: 50px;
+	background: #FFD464;
+	display: flex;
+	align-items:center;
+
+
+}
+
+.navegacion-menu{
+
+
+	display: flex;
+}
+
+strong{
+    color: #ec767e;
+}
+f
+.mensaje {
+	margin-left: -20px;
+	margin-right: 30px;
+}
+
+.logo{
+	padding-left: 50px;
+}
+
+.boton{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+	color: #432C51;
+	background-color: white;
+	height: 20px;
+	width: 70px;
+	border-radius: 5px;
+	border-width: thin;
+	border-color: #432C51;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 30px;
+	padding-bottom: 23px;
+	cursor: pointer;
+}
+
+.buscar{
+
+	height: 27px;
+	width: 50px;
+	background-color: white;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	border-width: thin;
+	margin-left: -1px;
+	border-color: #432C51;
+	cursor: pointer;
+
+}
+.buscarResponsive{
+
+	display: none;
+
+}
+
+
+/*BODY*/
+
+.perfil{
+
+	background: #CD767E;
+	height: 1100px;
+	width: 300px;
+	display: flex;
+	float: left;
+
+}
+
+.contenidoPerfil{
+
+	width: 240px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.fotoPerfil{
+
+	border-radius:100px;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.descripcion{
+	line-height: 1.3;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	color: white;
+
+}
+
+.mensajePerfil{
+	width: 240px;
+	height: 34px;
+	background: white;
+	border-radius: 7px;
+	border-width: thin;
+	border-color: #432C51;
+	color: #432C51;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	background-image: url(ImagenesCole/mensajePerfil.png);
+	background-repeat: no-repeat;
+	background-position: center left 10px;
+	margin-bottom: 7px;
+}
+
+.Agendar{
+	width: 240px;
+	height: 34px;
+	background: white;
+	border-radius: 7px;
+	border-width: thin;
+	border-color: #432C51;
+	color: #432C51;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	background-image: url(ImagenesCole/Agendar.png);
+	background-repeat: no-repeat;
+	background-position: center left 10px;
+	margin-bottom: 30px;
+}
+
+span.textoBoton{
+	margin-left: -90px;
+}
+
+.skills{
+
+	float: left;
+}
+
+.destacados{
+	line-height: 1.3;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	color: white;
+
+}
+
+.listaDestacados{
+
+	list-style-image: url(ImagenesCole/bullet.png);
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.liDesta{
+
+	display: list-item;
+	float: left;
+	text-align: left;
+	width: 160px;
+	padding: 0;
+	margin-left: 20px;
+
+}
+
+span.sitioTrabajo{
+	font-weight: bold;
+}
+
+.slider{
+
+	height: 228px;
+	background-position: 0px -550px;
+	background-image: url(ImagenesCole/portada.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+
+}
+
+
+.contenedor{
+
+	width: 100%;
+	display: inline-block;
+}
+
+.contenedorProyectos{
+
+	width: 850px;
+	display: inline-block;
+	float: left;
+}
+
+.MisProyectos{
+
+	height: 75px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+
+
+
+}
+
+.barraBuscar{
+	display: flex;
+	float: right;
+
+
+
+}
+
+
+.titulo{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.navEsteban{
+    
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.buscarProyecto{
+
+	height: 27px;
+	width: 250px;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-width: thin;
+	border: 2px solid #cccccc;
+	background: #f2f2f2;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	padding: 7px 5px 5px 10px;
+
+}
+
+.buscarProBo{
+
+	height: 27px;
+	width: 50px;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border-width: thin;
+	border: 2px solid #cccccc;
+	background: #f2f2f2;
+	margin-left: -6px;
+	display: inline-flex;
+	align-self: center;
+
+}
+
+.colecciones{
+	
+    padding-bottom: 23px;
+
+    height: 54px;
+    width: 1120px;
+    display:flex;
+    
+   
+    background: #F0EEF3;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+   
+    background: #F0EEF3;
+
+}
+
+
+
+.coleccion{
+	display: inline-block;
+	height: 270px;
+	background: #f0eef3;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+
+}
+
+.titulo {
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+    cursor: pointer;
+    width: 240px;
+    margin-top: 22px;
+    text-align: center;
+ 
+
+}
+
+
+
+
+.fondo{
+    
+    background:#432C51;
+    width: 1120px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    vertical-align: middle;
+    margin:  0 auto;
+    padding-bottom: 15px;
+    margin-top:15px;
+    
+    
+}
+
+.fondo_2{
+    
+    background:#a25074;
+    width: 1120px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    vertical-align: middle;
+    margin:  0 auto;
+    padding-bottom: 15px;
+
+    margin-bottom: 15px;
+    
+    
+    
+    
+}
+
+.etiquetas{
+ 
+    height: 64px;
+    width: 1200px;
+    margin:auto;
+   padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    
+ 
+  
+}
+.titulo2 {
+      
+    
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+ 
+    color: white;
+
+    padding-left: 30px;
+    cursor: pointer; 
+   
+        
+}
+
+
+
+.titulo3{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    color: white;
+   margin: 0px;
+    padding-left: 30px;
+  
+
+}
+
+
+.titulo4{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    color: white;
+   margin: 0px;
+    padding-left: 30px;
+    
+   
+padding-right: 20px;
+    padding-left: 20px;
+   text-align: center;
+    
+
+}
+
+
+.ver_mas{ 
+    
+    
+    background: #432C51;
+    border-radius: 20px;
+    
+    position: relative;
+    margin-bottom: 50px;
+   
+    padding-left: 22Px;
+    padding-right: 22PX;
+    width: 108PX;
+    margin: 0 auto;
+    top: -22px;
+}
+
+
+
+
+
+.iconos{
+    
+    vertical-align: middle;
+    display: flex;
+}
+
+.icono1{
+    
+    
+	width: 100%;
+  
+	
+	width:26px; 
+	float: right; 
+  
+   margin-right: 60px;
+   margin-top: 20px;
+
+}
+
+.icono2{
+    
+    
+	width: 100%;
+
+	width:26px; 
+	float: right; 
+  
+	margin-right: 60px;
+   margin-top: 20px;
+
+}
+
+.icono3{
+    
+    
+	width: 100%;
+	
+	width:26px; 
+	float: right; 
+   
+	margin-right: 40px;
+    
+    margin-bottom: 20px;
+     margin-top: 20px;
+
+   
+
+}
+
+.contenedor_img{
+    
+    margin-top: 10px;
+   position: relative;
+    text-align: center;
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+    
+    
+   
+    
+}
+
+.tipo_1{
+    
+    height: 500px;
+	width: 260px;
+	background-image: url(ImagenesCole/Sombrero.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+   
+}
+
+.tipo_1_2{
+    
+    height: 500px;
+	width: 260px;
+    margin-left: 10px;
+	background-image: url(ImagenesCole/sentada.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+  background-position: center;
+   
+}
+
+.tipo_1_3{
+    
+    height: 500px;
+	width: 260px;
+    margin-left: 10px;
+	background-image: url(ImagenesCole/color.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+  background-position: center;
+}
+
+.tipo_1_4{
+    
+    height: 500px;
+	width: 260px;
+    margin-left: 10px;
+	background-image: url(ImagenesCole/depre.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+  background-position: center;
+    margin-top: 10px;
+}
+
+.tipo_1_5{
+    
+    height: 500px;
+	width: 260px;
+    margin-left: 10px;
+	background-image: url(ImagenesCole/rubia.jpg);
+	background-size: cover;
+	border-radius: 10px;
+    margin-right: 0px;
+	display:inline-block;
+  background-position: center;
+}
+
+
+
+.tipo_2{
+    
+    height: 500px;
+	width: 565px;
+    margin-left: 10px;
+	background-image: url(ImagenesCole/afro.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+background-position: center;
+    
+    
+}
+
+.tipo_2_1{
+    
+    height: 500px;
+	width: 565px;
+  
+	background-image: url(ImagenesCole/desierto.jpg);
+	background-size: cover;
+	border-radius: 10px;
+	display:inline-block;
+    background-position: center;
+    
+    
+}
+
+.tipo_3{
+    
+    height: 220px;
+	width: 260px;
+	background-image: url(ImagenesCole/albina.jpg);
+	background-size: cover;
+	border-radius: 10px;
+    margin-top: 10px;
+    
+	display:inline-block;
+    background-position: center;
+    
+    
+}
+
+.tipo_3_1{
+    
+    height: 220px;
+	width: 260px;
+	background-image: url(ImagenesCole/dormida.jpg);
+	background-size: cover;
+	border-radius: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+	
+    background-position: center;
+    
+ 
+   
+    
+    
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*FOOTER*/
+
+footer{
+
+	background: #432c51;
+	vertical-align: middle;
+	background-image: url(ImagenesCole/texturaFooter.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer{
+
+	height: 310px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin: 0 auto;
+
+}
+
+.titleFooter{
+
+	font-family: 'Patua One', cursive;
+	font-size: 20px;
+	letter-spacing: 0.5px
+
+}
+
+.pFooter{
+
+	line-height: 1.3;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+
+}
+
+.aFooter{
+
+	color: white;
+}
+
+.sobre{
+	width: 250px;
+	padding-right: 40px;
+	padding-left: 20px;
+	padding-top: 50px;
+	align-self: flex-start
+}
+
+.siguenos{
+	width: 250px;
+	padding-right: 40px;
+	padding-top: 50px;
+	align-self: flex-start
+
+}
+
+.boletin{
+	width: 250px;
+	padding-right: 40px;
+	padding-top: 50px;
+	align-self: flex-start
+}
+
+.aplicacion{
+	width: 250px;
+	padding-top: 50px;
+	align-self: flex-start
+}
+
+input[type="correo"] {
+	height: 17px;
+	width: 190px;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border: 2px solid #ffffff;
+	background: none;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	padding: 7px 5px 5px 10px;
+	color: white;
+}
+
+.correo::-webkit-input-placeholder {
+	color: white;
+	opacity: 0.3;
+}
+
+.enviar {
+	height: 33px;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	color: white;
+	border: 2px solid #ffffff;
+	background: none;
+	margin-left: -6px;
+	cursor: pointer;
+}
+
+.derechos{
+	margin-top: -10px;
+	background: #A25174;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 9px;
+	color: #432C51;
+	text-align: center;
+
+}
+
+.texturaF1{
+	vertical-align: middle;
+	margin-left: -400px;
+}
+
+.texturaF2{
+
+}
+
+nav{
+
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+a{
+	font-family: 'Catamaran', sans-serif;
+	text-decoration: none;
+	color: #432C51;
+}
+
+li{
+
+	display: inline-block;
+	padding: 0px 0px 0px 50px;
+	font-size: 16px;
+}
+
+h3{
+	font-family: 'Patua One', cursive;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	color: #432C51;
+}
+
+h4{
+	font-family: 'Catamaran', sans-serif;
+	color: #432C51;
+	margin-top: -20px;
+	margin-bottom: 0px;
+	font-weight:100;
+	font-size: 14px;
+}
+
+h5{
+	margin: 0;
+	font-family: 'Patua One', cursive;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	color: white;
+	font-weight: 100;
+}
+
+H6{
+	font-family: 'Patua One', cursive;
+	font-size: 40px;
+	letter-spacing: 0.5px;
+	color: #432C51;
+	font-weight: 100;
+	padding-left: 40px;
+	margin-top: 10px;
+	margin: 0px;
+	width: 260px;
+	display: flex;
+}
+
+h7{
+	font-family: 'Patua One', cursive;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	color: #432C51;
+	font-weight: 100;
+	padding-left: 40px;
+	margin-top: 10px;
+	display: flex;
+
+}
+
+.DescripcionP{
+	border-color: #432C51;
+	font-family: 'Catamaran', sans-serif;
+	color: #432C51;
+	font-size: 14px;
+	padding-left: 40px;
+	margin-top: 0px;
+}
+
+input {
+
+	height: 27px;
+	width: 250px;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-width: thin;
+	border-color: #432C51;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	padding: 7px 5px 5px 10px;
+}
+
+body{
+	margin: 0;
+}
+
+/*hovers*/
+
+a:hover { 
+	color: #FA5B75;
+}
+
+.destacados:hover{
+	color: #432C51;
+}
+
+header label:hover{
+	cursor: pointer;
+}
+
+/*responsive*/
+
+#boton-menu{
+	display: none;
+}
+
+header label{
+
+	display: none;
+	width: 30px;
+	height: 3opx;
+	padding: 20px;
+
+}
+
+@media (max-width:1177px) {
+    
+   
+    
+    .titulo{
+        padding-left: 0px;
+        padding-right: 0px;
+         width: 430px;
+    }
+    
+    
+    .contenedor_img{
+       width: 100%;
+    }
+    
+    .colecciones{
+        width: 100%;
+    }
+    
+    .contenedor{
+        width: 100%;
+    }
+    
+    .fondo{
+        width: 100%;
+    }
+    
+     .fondo_2{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media (max-width:1580px) {
+
+    .titulo{
+     
+        width: 230px;
+         padding-left: 60px;
+    
+        display: flex;
+    }
+
+	nav li{
+		
+		padding: 10px;
+
+		
+	}
+	.mensaje{
+		margin: 0px;
+	}
+
+
+
+}
+
+
+@media (max-width:1359px) {
+
+	/*responsive nav*/
+
+    .tipo_1{
+		height: 300px;
+		width: 31%;
+		background-image: url(ImagenesCole/Sombrero.jpg);
+		background-size: cover;
+		background-position: center;
+		border-top-left-radius: 10px;
+        margin-bottom: 0px;
+		border-top-right-radius: 10px;
+		display:inline-block;
+	}
+
+	.tipo_1_2{
+		height: 300px;
+		width: 32%;
+		background-image: url(ImagenesCole/sentada.jpg);
+		background-size: cover;
+		background-position: center;
+		display:inline-block;
+        margin-bottom: 0px;
+		margin-top: -4px;
+		margin-left: 1px;
+		margin-right: 1px;
+
+	}
+
+	.tipo_2{
+		height: 300px;
+		width: 32%;
+		background-image: url(ImagenesCole/afro.jpg);
+		background-size: cover;
+		background-position: 0px;
+		display:inline-block;
+        margin-bottom: 0px;
+		margin-top: -10px;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+
+	.tipo_2_1{
+		height: 300px;
+		width: 31%;
+		background-image: url(ImagenesCole/desierto.jpg);
+		background-size: cover;
+		background-position: center;
+		border-top-left-radius: 10px;
+        margin-bottom: 10px;
+		border-top-right-radius: 10px;
+		display:inline-block;
+	}
+
+	.tipo_1_3{
+		height: 300px;
+		width: 32%;
+		background-image: url(ImagenesCole/color.jpg);
+		background-size: cover;
+		background-position: center;
+		display:inline-block;
+		margin-top: -4px;
+        margin-bottom: 10px;
+		margin-left: 1px;
+		margin-right: 1px;
+
+	}
+
+	.tipo_1_4{
+		height: 300px;
+		width: 32%;
+		background-image: url(ImagenesCole/depre.jpg);
+		background-size: cover;
+		background-position: center;
+		display:inline-block;
+		margin-top: -10px;
+        margin-bottom: 10px;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+   
+     .titulo{
+     
+        width: 260px;
+         padding-left: 60px;
+    
+        display: flex;
+       
+    }
+    
+    
+    
+    
+	.textura{
+		display: none;
+	}
+
+
+	.buscarNavegador{
+		display: none;
+
+	}
+	.buscar{
+		display: none;
+		width: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.buscarResponsive{
+		display: block;
+		height: 27px;
+		width: 50px;
+		background-color: white;
+		border-radius: 10px;
+		border-width: thin;
+		margin-right: 20px;
+		border-color: #432C51;
+		cursor: pointer;
+	}
+
+	.logo{
+		margin: 0 auto;
+		padding: 0px;
+
+	}
+
+	.boton{
+		display: none;
+	}
+
+	header label{
+		display: block;
+	}
+
+	header label:hover{
+		background: rgba(0,0,0,0.1);
+
+
+	}
+
+	nav {
+		display: inline-block;
+		margin-top: 125px;
+		background: #432C51;
+		z-index: 1; 
+		position: absolute;
+		width: 100%;
+		margin-left: -140%;
+		transition: 0.2s;
+
+	}
+
+	nav li {
+
+		width: 400px;
+		text-align: center;
+		padding: 0px;
+		border-bottom: 1px;
+		border-top: 1px  solid #CD767E;
+		padding: 0px;
+		
+
+	}
+
+	nav a{
+		color: white;
+	}
+
+
+	.navegacion-menu { 
+
+		flex-direction: column;
+		align-items: center;
+		
+
+	}
+	
+	
+
+	.mensaje{
+		margin-bottom: 0px;
+		margin: 0px;
+	}
+
+
+	#boton-menu:checked ~ nav{
+		margin-left: 0px;
+	}
+
+	/*responsive content*/
+
+	.slider{
+		display: none;
+	}
+
+
+	.perfil{
+		width: 100%;
+		height: 15%;
+		display:flex;
+		margin-bottom: 20px;
+	}
+
+	.contenidoPerfil{
+		width: 100%;
+	}
+
+	.cabezotePerfil{
+
+		width: 100%;
+		background-position: center -2000px;
+		background-repeat: no-repeat;
+		background: linear-gradient(to bottom, transparent, #432C51), url(ImagenesCole/portada.jpg);
+		background-position: center;
+
+	}
+
+	.descripcion{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	h5{
+		padding-top: 20px;
+	}
+
+	h3{
+		color: white;
+		font-weight: lighter;
+
+	}
+	h4{
+		color: white;
+	}
+
+	.informacion{
+		display: none;
+	}
+    
+    
+
+	input[type="correo"] {
+		width: 66px;
+	}
+
+}
+
+@media (max-width:870px) {
+	/*Colecciones*/
+
+      .titulo{
+     
+        width: 160px;
+         padding-left: 20px;
+    
+        display: flex;
+      
+    }
+    
+	.fondo_2{
+        width: 100%;
+    }
+
+
+	.tipo_1{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/Sombrero.jpg);
+		background-size: cover;
+		background-position: center;
+		border-top-left-radius: 10px;
+        margin-bottom: 5px;
+		border-top-right-radius: 10px;
+		display:inline-block;
+	}
+
+	.tipo_1_2{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/sentada.jpg);
+		background-size: cover;
+		background-position: center;
+		display:inline-block;
+        margin-bottom: 10px;
+         background-position: top;
+		margin-top: -4px;
+		margin-left: 1px;
+		margin-right: 1px;
+
+	}
+
+	.tipo_2{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/afro.jpg);
+		background-size: cover;
+		background-position: 0px;
+		display:inline-block;
+        margin-bottom: 0px;
+		margin-top: -10px;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+
+	.tipo_2_1{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/desierto.jpg);
+		background-size: cover;
+		background-position: center;
+		border-top-left-radius: 10px;
+        margin-bottom: 5px;
+		border-top-right-radius: 10px;
+		display:inline-block;
+	}
+
+	.tipo_1_3{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/color.jpg);
+		background-size: cover;
+		background-position: center;
+		display:inline-block;
+		margin-top: -4px;
+         background-position: top;
+		margin-left: 1px;
+		margin-right: 1px;
+
+	}
+
+	.tipo_1_4{
+		height: 300px;
+		width: 100%;
+		background-image: url(ImagenesCole/depre.jpg);
+		background-size: cover;
+		background-position: center;
+        background-position: top;
+		display:inline-block;
+		margin-top: -10px;
+      
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+
+	.footer{
+		height: auto;
+		margin-bottom: 60px;
+	}
+
+
+}
+
+
+@media (max-width:1138px){
+
+    
+}
+
+@media (max-width:662px){
+    
+    
+      .titulo{
+     
+        width: 160px;
+         padding-left: 22px;
+    
+      
+        font-size: 26px;
+    }
+    
+    .icono1{
+    
+    
+	width: 100%;
+  
+	
+	width:26px; 
+	float: right; 
+  
+   margin-right: 20px;
+   margin-top: 20px;
+
+}
+
+.icono2{
+    
+    
+	width: 100%;
+
+	width:26px; 
+	float: right; 
+  
+	margin-right: 20px;
+   margin-top: 20px;
+
+}
+
+.icono3{
+    
+    
+	width: 100%;
+	
+	width:26px; 
+	float: right; 
+   
+	margin-right: 20px;
+    
+    margin-bottom: 20px;
+     margin-top: 20px;
+
+   
+
+}
+
+	.barraBuscar{
+		display: none;
+	}
+
+	h7{
+		padding: 10px;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.DescripcionP{
+		margin-top: -20px;
+		padding: 10px;
+	}
+
+	.tituloDescripcion{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: -30px;
+	}
+
+	.like{
+
+		display:flex;
+		justify-content: center;
+		width: 100%;
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+
+
+	/*Footer*/
+
+	footer{
+		height: auto;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.footer{
+		height: auto;
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+
+	}
+
+	.sobre{
+		display: block;
+		text-align: center;
+		align-self: center;
+		padding: 0px;
+		padding-top: 10px;
+		margin-bottom: 15px;
+	}
+
+
+	.siguenos{
+		padding-right: 0px;
+		text-align: center;
+		padding-top: 5px;
+		margin-bottom: 15px;
+
+		align-self: center;
+		border-top: 1px  solid #CD767E;
+
+	}
+
+	.boletin{
+		padding-right: 0px;
+		text-align: center;
+		margin-bottom: 15px;
+
+		padding-top: 5px;
+		align-self: center;
+		border-top: 1px  solid #CD767E;
+	}
+
+	.aplicacion{
+
+		padding-right: 0px;
+		text-align: center;
+		padding-top: 5px;
+		align-self: center;
+		border-top: 1px  solid #CD767E;
+	}
+	.derechos{
+		display: inline-block;
+		width: 100%;
+	}
+
+
+}
+
+@media (max-width:350px){
+	h6{
+		padding: 10px;
+		display: inline-block;
+		text-align: center;
+		font-size: 30px;
+		margin-top: -20px;
+	}
+	.coleccion{
+		margin: 3px;
+	}
+}
